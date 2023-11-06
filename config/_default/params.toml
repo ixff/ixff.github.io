@@ -2,10 +2,10 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon = "/favicon.png"
+favicon = "/favicon.png"  # static目录下
 
 [footer]
-since = 2020
+since = 2023  # 站点创建年份
 customText = ""
 
 [dateFormat]
@@ -13,13 +13,13 @@ published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+emoji = ""  # 左侧栏头像右下角的emoji
+subtitle = ""  # 左侧栏头像下方的描述
 
 [sidebar.avatar]
-enabled = true
+enabled = true  # 左侧栏头像
 local = true
-src = "img/avatar.png"
+src = "img/avatar.png"  # assets目录下
 
 [article]
 math = false
@@ -27,7 +27,7 @@ readingTime = true
 
 [article.license]
 enabled = true
-default = "Licensed under CC BY-NC-SA 4.0"
+default = "文章采用 CC BY-SA 4.0 许可协议，转载请注明出处。"
 
 ## Widgets
 [[widgets.homepage]]
@@ -76,7 +76,7 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "disqus"
+provider = "giscus"
 
 [comments.disqusjs]
 shortname = ""
@@ -127,15 +127,19 @@ serverName = "cactus.chat"
 siteName = ""
 
 [comments.giscus]
-repo = ""
-repoID = ""
-category = ""
-categoryID = ""
-mapping = ""
-lightTheme = ""
-darkTheme = ""
-reactionsEnabled = 1
-emitMetadata = 0
+repo = "ixff/ixff.github.io"
+repoID = "R_kgDOKp1emA"
+category = "Announcements"
+categoryID = "DIC_kwDOKp1emM4CatoT"
+mapping = "pathname"
+strict = "0"
+inputPosition = "top"
+darkTheme = "preferred_color_scheme"
+lightTheme = "preferred_color_scheme"
+reactionsEnabled = "0"
+emitMetadata = "0"
+lang = "zh-CN"
+crossorigin = "anonymous"
 
 [comments.gitalk]
 owner = ""
