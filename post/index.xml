@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ixff</title><link>https://ixff.github.io/post/</link><description>Recent content in Posts on ixff</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 26 Feb 2022 14:14:05 +0000</lastBuildDate><atom:link href="https://ixff.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>A LaTeX to Word Equation Converter</title><link>https://ixff.github.io/p/latex2word/</link><pubDate>Sat, 26 Feb 2022 14:14:05 +0000</pubDate><guid>https://ixff.github.io/p/latex2word/</guid><description>&lt;h1 id="a-latex-to-word-equation-converter">A LaTeX to Word Equation Converter&lt;/h1>
+&lt;p>用来替代MicroSoft Word自带的公式编辑器，直接编辑LaTeX代码然后粘贴到Word中即可。&lt;/p>
+&lt;p>&lt;a class="link" href="latex2word.html" >点此打开链接使用&lt;/a>&lt;/p>
+&lt;p>需要联网加载CodeCogs Equation Editor，加载完全的页面如下图所示，如果加载不完全，请使用代理上网。&lt;/p>
+&lt;p>&lt;img src="https://ixff.github.io/p/latex2word/2022-02-26-14-11-58_20231106024750610.jpg"
+width="1037"
+height="858"
+srcset="https://ixff.github.io/p/latex2word/2022-02-26-14-11-58_20231106024750610_hucb965a6f7e9bd8d348622d9c79fae0db_154203_480x0_resize_q75_box.jpg 480w, https://ixff.github.io/p/latex2word/2022-02-26-14-11-58_20231106024750610_hucb965a6f7e9bd8d348622d9c79fae0db_154203_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="120"
+data-flex-basis="290px"
+>&lt;/p>
+&lt;/br>
+&lt;p>&lt;a class="link" href="https://github.com/cyrildtm/latex2word" target="_blank" rel="noopener"
+>原仓库地址&lt;/a>&lt;/p></description></item></channel></rss>
